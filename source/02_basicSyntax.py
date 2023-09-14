@@ -79,3 +79,15 @@ print(myDict1[22.2])
 
 myDict2 = {'a':'aaa', 'b':'bbb', 'c':'ccc'} # 构造一个字典并赋值
 print(myDict2['a'])
+
+#-------------------------------------------------
+# 数据类型转换
+strInt = '123'
+str2Int = int(strInt)   # 字符串转换为int，如果字符串含有非数字则编译报错
+strHex = hex(str2Int)   # int转换为16进制字符串
+int2Str = str(str2Int)  # int转换为字符串
+
+print(strInt)
+print(str2Int)
+print(strHex)
+print(int2Str)
